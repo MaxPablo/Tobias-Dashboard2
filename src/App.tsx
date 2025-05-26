@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     if (weeks === 0) {
       setWeeks(1);
-      setInvestment(5398.98); // Updated with 2% increase from 5128.02
+      setInvestment(5541,02); // Updated with 2% increase from 5128.02
       
       // Set new random growth rate for next week
       const newRate = (Math.random() * (2.2 - 0.5) + 0.5) / 100;
